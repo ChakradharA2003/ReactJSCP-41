@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e2e8f0;
+  width: 100%;
+  padding: 20px;
+  margin: 4px;
+}
+@media (max-width: 767px) and (orientation: portrait) {
+  .footer-container {
+    padding: 5px;
+  }
+}
+
+.footer-heading {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+}
